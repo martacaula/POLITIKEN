@@ -1,0 +1,7 @@
+{
+  "name": "Politiken Re:Connect",
+  "description": "An AI-powered daily podcast that transforms Politiken’s long-form journalism into short, curated audio summaries, tailored for different age groups and interests.",
+  "requestFramePermissions": [
+    "microphone"
+  ]
+}
