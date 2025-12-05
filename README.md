@@ -1,20 +1,32 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-</div>
+# Politiken Re:Connect
 
-# Run and deploy your AI Studio app
+**Client:** POLITIKEN.DK  
+**Provider:** ROGEX AI
 
-This contains everything you need to run your app locally.
+## About the Project
 
-View your app in AI Studio: https://ai.studio/apps/drive/1hETw9jTyr847L0icdAJAV94pQb5d7r53
+Politiken Re:Connect is an AI-powered daily podcast platform that transforms Politiken’s long-form journalism into short, curated audio summaries. It is tailored for different age groups and interests, allowing users to consume high-quality journalism on the go.
 
-## Run Locally
+## Key Features
 
-**Prerequisites:**  Node.js
+- **Personalized Content:** Users select their age group and interests (e.g., Politics, Culture, Climate) to receive a custom-tailored news briefing.
+- **AI-Generated Audio:** Converts text summaries into natural-sounding speech for a seamless listening experience.
+- **Voice Interaction:** Includes an interactive voice chat overlay that allows users to ask questions and dive deeper into the news stories.
+- **Multi-language Support:** Full support for both Danish and English users.
+- **Student Engagement:** Dedicated features and access paths for student union members.
 
+## Technology
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+This application leverages advanced Generative AI models to perform real-time text summarization, scriptwriting, and text-to-speech synthesis.
+
+## Usage
+
+1. **Settings:** Configure your preferences for age, interests, and duration.
+2. **Generate:** The AI compiles relevant articles and produces a personalized audio podcast.
+3. **Listen:** Play the episode directly in the browser.
+4. **Interact:** Use the microphone to ask follow-up questions about the content.
+5. **Save:** Archive episodes to listen to later.
+
+---
+
+*Developed by ROGEX AI for POLITIKEN.DK*
